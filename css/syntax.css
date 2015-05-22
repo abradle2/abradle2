@@ -1,5 +1,5 @@
-.highlight { background-color: #ffffff;
-			 min-width: 500px; }
+.highlight { background-color: #ffffff }
+.highlighttable {width: 100%;}
 .c { color: #444; font-style: italic } /* Comment */
 .err { color: #FF0000; background-color: #FFAAAA } /* Error */
 .k { color: #0000aa } /* Keyword */

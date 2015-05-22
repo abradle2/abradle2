@@ -173,6 +173,8 @@ a:hover {
   /*background-color: #eef; */
   background-color: #ccc;
   padding: 0 .4em;
+  max-width: 684px;
+  overflow: scroll;
 }
 
 .post p {
@@ -196,6 +198,11 @@ a:hover {
 
 .post pre code {
   border: none;
+}
+
+.post .linenos {
+  width: 35px;
+  min-width: 35px;
 }
 
 /* terminal */
@@ -229,7 +236,8 @@ a:hover {
   width: 14%;
   padding-left: 11em;
   padding-right: 2.125em;
-  border-right: 1px solid #e7e7e7;
+  /*border-right: 1px solid #e7e7e7;*/
+  border-right: 1px solid #bbb;
 }
 
 .content {
