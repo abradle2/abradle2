@@ -213,6 +213,10 @@ a:hover {
   background-color: #333;
 }
 
+#disqus_thread {
+  max-width: 725px;
+}
+
 /*****************************************************************************/
 /*
 /* Sidebar and Content
