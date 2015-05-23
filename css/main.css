@@ -17,8 +17,8 @@ html, body {
 
 body {
   color: #4a4a4a;
-  /*background-color: #fafbfc;*/
-  background-color: #eaeaea;
+  background-color: #fafbfc;
+  /*background-color: #eaeaea;*/
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
   font-size: 0.85em;
@@ -170,11 +170,12 @@ a:hover {
 /* standard */
 .post pre {
   border: 1px solid #4a4a4a;
-  /*background-color: #eef; */
-  background-color: #ccc;
+  /*background-color: #eef;*/
+  background-color: #000000;
   padding: 0 .4em;
-  max-width: 684px;
   overflow: scroll;
+  max-height: 700px;
+  margin-bottom: 20px;
 }
 
 .post p {
@@ -192,7 +193,7 @@ a:hover {
 .post code {
   border: 1px solid #ddd;
   /*background-color: #eef; */
-  background-color: #ccc;
+  /*background-color: #ccc;*/
   padding: 0 .2em;
 }
 
@@ -200,10 +201,6 @@ a:hover {
   border: none;
 }
 
-.post .linenos {
-  width: 35px;
-  min-width: 35px;
-}
 
 /* terminal */
 .post pre.terminal {
